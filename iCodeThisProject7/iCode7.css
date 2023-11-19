@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+body{
+    background-color: #144456;
+    font-family: 'Rubik', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.anaAlan{
+    width: 600px;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #d3e7e7;
+    border-radius: 20px;
+}
+.bolum1{
+    height: 18vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-image: url("/images/headerFoto.jpg");
+    background-size: cover;
+    color: white;
+}
+.back{
+    width: 70px;
+    height: 60px;
+    font-size: 2rem;
+    position: relative;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+}
+.back:hover{
+    opacity: 0.7;
+}
+.baslik{
+    position: absolute;
+    left: 180px;
+    top: -10px;
+}
+.menu-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 14px 16px;
+    color: white;
+    position: absolute;
+    right: 0px;
+}
+.menu-icon:hover{
+    opacity: 0.7;
+}
+.bar1{
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+}
+.bar2{
+    position: absolute;
+    bottom: 0px;
+    left: 210px;
+    opacity: 0.7;
+}
+.bar3{
+    position: absolute;
+    left: 340px;
+    bottom: 0px;
+    opacity: 0.7;
+}
+.bar4{
+    position: absolute;
+    left: 500px;
+    bottom: 0px;
+    opacity: 0.7;
+}
+h3{
+    padding-right: 20px;
+}
+.book1{
+    width: 230px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    left: 40px;
+}
+.book1Img{
+    width: 230px;
+    height: 280px;
+}
+.level1{
+    width: 95%;
+    height: 5px;
+    background-color: rgb(220, 215, 215);
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+}
+.level1::before{
+    content: "";
+    display: block;
+    background-color: #77c5cc;
+    width: 85%;
+    height: 5px;
+    position: relative;
+}
+.book1Baslik{
+    position: absolute;
+    bottom: 10px;
+}
+.book1AltBaslik{
+    position: absolute;
+    bottom:-15px;
+    opacity: 0.7;
+}
+.book2{
+    width: 230px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    right: 40px;
+}
+.book2Img{
+    height: 280px;
+    width: 230px;
+}
+.level2{
+    width: 95%;
+    height: 5px;
+    background-color: rgb(220, 215, 215);
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+}
+.level2::before{
+    content: "";
+    display: block;
+    background-color: #77c5cc;
+    width: 35%;
+    height: 5px;
+    position: relative;
+}
+.book2Baslik{
+    position: absolute;
+    bottom: 10px;
+}
+.book2AltBaslik{
+    position: absolute;
+    bottom:-15px;
+    opacity: 0.7;
+}
+.book3{
+    width: 230px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    left: 40px;
+}
+.book3Img{
+    height: 280px;
+    width: 230px;
+}
+.level3{
+    width: 95%;
+    height: 5px;
+    background-color: rgb(220, 215, 215);
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+}
+.level3::before{
+    content: "";
+    display: block;
+    background-color: #77c5cc;
+    width: 45%;
+    height: 5px;
+    position: relative;
+}
+.book3Baslik{
+    position: absolute;
+    bottom: 10px;
+}
+.book3AltBaslik{
+    position: absolute;
+    bottom:-15px;
+    opacity: 0.7;
+}
+.book4{
+    width: 230px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    right: 40px;
+}
+.book4Img{
+    height: 280px;
+    width: 230px;
+}
+.level4{
+    width: 95%;
+    height: 5px;
+    background-color: rgb(220, 215, 215);
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+}
+.level4::before{
+    content: "";
+    display: block;
+    background-color: #77c5cc;
+    width: 95%;
+    height: 5px;
+    position: relative;
+}
+.book4Baslik{
+    position: absolute;
+    bottom: 10px;
+}
+.book4AltBaslik{
+    position: absolute;
+    bottom:-15px;
+    opacity: 0.7;
+}
